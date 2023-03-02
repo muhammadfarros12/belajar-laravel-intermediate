@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
 
 app()->bind('contoh', function (){
     return new \App\Data\Tabungan();
